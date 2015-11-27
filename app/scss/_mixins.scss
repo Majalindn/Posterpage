@@ -1,0 +1,28 @@
+@mixin large-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    padding:0;
+    margin:0;
+ }
+
+@mixin small-text {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 90%;
+    padding:0;
+    margin:0;
+}
+
+@mixin normal-text{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 90%;
+}
+
+@mixin logo-text{
+    font-family: 'Francois One', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+    
