@@ -191,10 +191,10 @@ section {
     }
         
             .card-foot{
-                @include normal-text;
                 display: flex;
                 flex-flow: row;
                 justify-content: space-between;
+                @include normal-text;
                 }
   
                 
@@ -217,6 +217,7 @@ footer {
     align-items: baseline;
     flex-flow: column;
 
+/*Flexbox for retailer-taxt*/
     .retailer{
         display:flex;
         max-width: 600px;
@@ -227,11 +228,17 @@ footer {
         @include small-text;
         color: gray;
         }
+
+/*Flexbox for button*/
+        
+    .contact{
+        display:flex;
+        }
     
+/*Flexbox for FontIcon*/
     .social_media{
         display:flex;
-        align-items: baseline; 
-        padding-top:0;                       margin:0;
+        padding-top:0;                   margin:0;
     }
 }
 
@@ -259,11 +266,14 @@ footer {
         footer{
         flex-flow: row;
         }
-        
-        .fa fa arrow-circle-left{
-            display: none;
+    
+    .contact{
+        order:99;
         }
+    
 }
+        
+        
         
 
         
